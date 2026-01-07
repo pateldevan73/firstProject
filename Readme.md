@@ -15,6 +15,13 @@ This project serves as a practical exploration of Python's core features. It int
 
 ---
 
+## 📸 Output Screenshot
+Below is a visual representation of the application in action:
+
+![App Output](Output%20SS.png)
+
+---
+
 ## 🛠️ Technical Stack
 * **Language:** Python 3.x
 * **Concepts:** Type Casting (`int`, `float`), Variable Assignment, String Formatting, and Memory Addresses.
@@ -25,6 +32,7 @@ This project serves as a practical exploration of Python's core features. It int
 | File | Description |
 | :--- | :--- |
 | `project1.py` | The main source code containing the logic and user prompts. |
+| `Output SS.png` | Screenshot of the program execution. |
 | `README.md` | Documentation for the repository. |
 
 ---
@@ -45,18 +53,23 @@ This project serves as a practical exploration of Python's core features. It int
 
 ---
 
-## 📝 Example Output
+## 📝 Example Terminal Output
 ```text
+=== RESTART: D:/Python/FirstProject/project1.py ===
 Welcome to the Interactive Personal Data Collector!
 
 Please enter your name: Devan
-Please enter your age: 19
-Please enter your height in meters: 1.75
+Please enter your age: 20
+Please enter your height in meters: 1.65
 Please enter your favourite number: 7
 
 Thank you! Here is the information we collected:
 
-Name: Devan (Type: <class 'str'> , Memory Address: 1407...
-Age: 19 (Type: <class 'int'> , Memory Address: 1407...
-...
-Your birth year is approximately: 2006 (based on your age 19)
+Name: Devan (Type: <class 'str'> , Memory Address: 1486522750928
+Age: 20 (Type: <class 'int'> , Memory Address: 140730417968856
+Height: 1.65 (Type: <class 'float'> , Memory Address: 1486522942864
+Favourite Number: 7 (Type: <class 'int'> , Memory Address: 140730417968440
+
+Your birth year is approximately: 2005 (based on your age 20)
+
+Thank you for using the Personal Data Collector. Goodbye!
